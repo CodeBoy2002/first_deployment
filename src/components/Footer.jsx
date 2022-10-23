@@ -4,7 +4,9 @@ import {MdEmail, MdMail} from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white h-14 md:mx-auto flex flex-row justify-center items-center gap-4'>
+    <div className='bg-slate-900 text-white h-20 md:mx-auto flex flex-row justify-center items-center gap-4 p-5'>
+      <div className='my-28 flex flex-row gap-5 justify-center items-center mx-auto pt-3'>
+
         <h1 className='font-extralight font-mono'>ALL RIGHT RESERVED</h1>
         <p className='font-extralight font-serif'>Copyright © 2022</p>
           <ul className='flex flex-row'>
@@ -24,6 +26,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+      </div>
     </div>
   )
 }

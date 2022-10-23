@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-slate-700 ">
+    <div name="home" className="w-full h-screen bg-[#0a192f] ">
       {/*Container*/}
       <div className="max-w-[1000px] ml-auto px-8 flex flex-col justify-center h-full sm:mx-20 items-center sm:items-center">
         <p className="text-pink-600 mt-10 sm:mt-20">Hi, my name is</p>
